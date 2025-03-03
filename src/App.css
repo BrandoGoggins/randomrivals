@@ -1,0 +1,162 @@
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.role-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.role-button:hover {
+  background-color: #f0f0f0;
+  border-color: #888;
+}
+
+.role-button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.bg-image {
+  position: fixed;
+  background-image: url("./assets/bg.jpg");
+  width: 100%;
+  z-index: 1;
+  width: 1920px;
+  height: 100vh;
+  filter: brightness(10%);
+}
+.hero-randomizer-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  height: 100vh;
+  padding: 20px;
+  z-index: 9999;
+}
+.hero-image-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust for the image ratio */
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 0rem;
+  object-position: 100% 100%;
+}
+
+.hero-name {
+  font-size: 2rem;
+  margin-bottom: -15px;
+}
+
+.hero-role {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+.instructions {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+
+.hero-card {
+  caret-color: transparent;
+  margin-top: 2rem;
+  margin:auto;
+  display: flex;
+  width: 75vw;
+  height: auto;
+  border-radius: 2rem;
+  transition: transform 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.hero-text-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0));
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.role-image {
+  width: 50px;
+  height: auto;
+  opacity: 100%;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.hero-text-container.fade-in {
+  opacity: 1;
+  animation: fadeIn 300ms ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fading-out .hero-text-container {
+  animation: fadeOut 300ms ease-in-out;
+  opacity: 0;
+}
+.isSpinning .hero-text-container {
+  opacity: 0; /* Keep text hidden during spinning */
+}
+.hero-text-container.isSpinning,
+.hero-text-container.fading-out {
+  opacity: 0; /* Hide card */
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.hero-card {
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+
+

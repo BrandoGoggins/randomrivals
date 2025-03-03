@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "name": "Adam Warlock",
+      "role": "Strategist",
+      "image": "/assets/icons/Adam4kBG.png"
+    },
+    {
+        "id": 2,
+        "name": "Winter Soldier",
+        "role": "Duelist",
+        "image": "/assets/icons/Bucky.png"
+    },
+    {
+        "id": 3,
+        "name": "Captain America",
+        "role": "Vanguard",
+        "image": "/assets/icons/Cap4kBG.png"
+    },
+    {
+        "id": 4,
+        "name": "Dr Strange",
+        "role": "Vanguard",
+        "image": "/assets/icons/DrStrange4kBG2.png"
+    },
+    {
+        "id": 5,
+        "name": "Groot",
+        "role": "Vanguard",
+        "image": "/assets/icons/Groot4kBG.png"
+    },
+    {
+        "id": 6,
+        "name": "Hela",
+        "role": "Duelist",
+        "image": "/assets/icons/Hela4kBG2.png"
+    },
+    {
+        "id": 7,
+        "name": "Hulk",
+        "role": "Vanguard",
+        "image": "/assets/icons/Hulk4kBG.png"
+    },
+    {
+        "id": 8,
+        "name": "Invisible Woman",
+        "role": "Strategist",
+        "image": "/assets/icons/Inviswoman4kBG.png"
+    },
+    {
+        "id": 9,
+        "name": "Iron Fist",
+        "role": "Duelist",
+        "image": "/assets/icons/IronFist3kBG2.png"
+    },
+    {
+        "id": 10,
+        "name": "Iron Man",
+        "role": "Duelist",
+        "image": "/assets/icons/IronMan4kBG.png"
+    },
+    {
+        "id": 11,
+        "name": "Jeff",
+        "role": "Strategist",
+        "image": "/assets/icons/Jeff4kBG.png"
+    },
+    {
+        "id": 12,
+        "name": "Loki",
+        "role": "Strategist",
+        "image": "/assets/icons/loki4kBG.png"
+    },
+    {
+        "id": 13,
+        "name": "Luna Snow",
+        "role": "Strategist",
+        "image": "/assets/icons/LunaSnow.png"
+    },
+    {
+        "id": 14,
+        "name": "Magik",
+        "role": "Duelist",
+        "image": "/assets/icons/Magik4kBG.png"
+    },
+    {
+        "id": 15,
+        "name": "Moon Knight",
+        "role": "Duelist",
+        "image": "/assets/icons/MoonKnight4kBG.png"
+    },
+    {
+        "id": 16,
+        "name": "Namor",
+        "role": "Duelist",
+        "image": "/assets/icons/Namor4kBG.png"
+    },
+    {
+        "id": 17,
+        "name": "Black Panther",
+        "role": "Duelist",
+        "image": "/assets/icons/Panther4kBG.png"
+    },
+    {
+        "id": 18,
+        "name": "Peni Parker",
+        "role": "Vanguard",
+        "image": "/assets/icons/Peni4kBG.png"
+    },
+    {
+        "id": 19,
+        "name": "Psylocke",
+        "role": "Duelist",
+        "image": "/assets/icons/Psy4kBG.png"
+    },
+    {
+        "id": 20,
+        "name": "Punisher",
+        "role": "Duelist",
+        "image": "/assets/icons/Punisher4kBG.png"
+    },
+    {
+        "id": 21,
+        "name": "Rocket Racoon",
+        "role": "Strategist",
+        "image": "/assets/icons/Racoon4kBG.png"
+    },
+    {
+        "id": 22,
+        "name": "Spider Man",
+        "role": "Duelist",
+        "image": "/assets/icons/Spidey4kBG.png"
+    },
+    {
+        "id": 23,
+        "name": "Squirrel Girl",
+        "role": "Duelist",
+        "image": "/assets/icons/SquirrelGirl4kBG.png"
+    },
+    {
+        "id": 24,
+        "name": "Starlord",
+        "role": "Duelist",
+        "image": "/assets/icons/Starlord4kBG.png"
+    },
+    {
+        "id": 25,
+        "name": "Storm",
+        "role": "Duelist",
+        "image": "/assets/icons/Storm4kBG.png"
+    },
+    {
+        "id": 26,
+        "name": "Thor",
+        "role": "Vanguard",
+        "image": "/assets/icons/Thor4kBG.png"
+    },
+    {
+        "id": 27,
+        "name": "Venom",
+        "role": "Vanguard",
+        "image": "/assets/icons/Venom4kBG.png"
+    },
+    {
+        "id": 28,
+        "name": "Scarlett Witch",
+        "role": "Duelist",
+        "image": "/assets/icons/Wanda4kBG.png"
+    },
+    {
+        "id": 29,
+        "name": "Wolverine",
+        "role": "Duelist",
+        "image": "/assets/icons/Wolverine4kBG.png"
+    },
+    {
+        "id": 30,
+        "name": "Magneto",
+        "role": "Vanguard",
+        "image": "/assets/icons/Magneto.jpeg"
+    },
+    {
+        "id": 31,
+        "name": "Mantis",
+        "role": "Strategist",
+        "image": "/assets/icons/Mantis.jpeg"
+    },
+    {
+        "id": 32,
+        "name": "Mr Fantastic",
+        "role": "Duelist",
+        "image": "/assets/icons/Fantastic.jpeg"
+    },
+    {
+        "id": 33,
+        "name": "Black Widow",
+        "role": "Duelist",
+        "image": "/assets/icons/Widow.jpeg"
+    },
+    {
+        "id": 34,
+        "name": "Cloak and Dagger",
+        "role": "Strategist",
+        "image": "/assets/icons/cnd.jpeg"
+    },
+    {
+        "id": 35,
+        "name": "Hawkeye",
+        "role": "Duelist",
+        "image": "/assets/icons/Hanzo.jpeg"
+    }
+  ]
+  
